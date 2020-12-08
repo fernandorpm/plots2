@@ -412,6 +412,11 @@ bluebird@*:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/bluebird/-/bluebird-3.5.3.tgz#7d01c6f9616c9a51ab0f8c549a79dfe6ec33efa7"
 
+blueimp-canvas-to-blob@3:
+  version "3.28.0"
+  resolved "https://registry.yarnpkg.com/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.28.0.tgz#c8ab4dc6bb08774a7f273798cdf94b0776adf6c8"
+  integrity sha512-5q+YHzgGsuHQ01iouGgJaPJXod2AzTxJXmVv90PpGrRxU7G7IqgPqWXz+PBmt3520jKKi6irWbNV87DicEa7wg==
+
 blueimp-canvas-to-blob@3.5.0:
   version "3.5.0"
   resolved "https://registry.yarnpkg.com/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.5.0.tgz#5679ac32f6a2835821f0c3ad661719ff85a9236b"
@@ -419,6 +424,15 @@ blueimp-canvas-to-blob@3.5.0:
 blueimp-canvas-to-blob@>=2.0.5:
   version "3.14.0"
   resolved "https://registry.yarnpkg.com/blueimp-canvas-to-blob/-/blueimp-canvas-to-blob-3.14.0.tgz#ea075ffbfb1436607b0c75e951fb1ceb3ca0288e"
+
+blueimp-file-upload@^10.30.1:
+  version "10.31.0"
+  resolved "https://registry.yarnpkg.com/blueimp-file-upload/-/blueimp-file-upload-10.31.0.tgz#46fc4fea4e678b57afbd9008f179e59fc3aa3e84"
+  integrity sha512-dGAxOf9+SsMDvZPTsIUpe0cOk57taMJYE3FocHEUebhn5BnDbu1hcWOmrP8oswIe6V61Qcm9UDuhq/Pv1t/eRw==
+  optionalDependencies:
+    blueimp-canvas-to-blob "3"
+    blueimp-load-image "5"
+    blueimp-tmpl "3"
 
 blueimp-file-upload@^9.28.0, blueimp-file-upload@blueimp/jQuery-File-Upload#^9.22.1:
   version "9.28.0"
@@ -432,9 +446,19 @@ blueimp-load-image@2.12.2:
   version "2.12.2"
   resolved "https://registry.yarnpkg.com/blueimp-load-image/-/blueimp-load-image-2.12.2.tgz#6a17598aab858d4fbf01543e0631141b51057c87"
 
+blueimp-load-image@5:
+  version "5.14.0"
+  resolved "https://registry.yarnpkg.com/blueimp-load-image/-/blueimp-load-image-5.14.0.tgz#e8086415e580df802c33ff0da6b37a8d20205cc6"
+  integrity sha512-g5l+4dCOESBG8HkPLdGnBx8dhEwpQHaOZ0en623sl54o3bGhGMLYGc54L5cWfGmPvfKUjbsY7LOAmcW/xlkBSA==
+
 blueimp-load-image@>=1.5.0:
   version "2.20.1"
   resolved "https://registry.yarnpkg.com/blueimp-load-image/-/blueimp-load-image-2.20.1.tgz#8cf677f3cd0368548bf0108997ba09ea2e331c1b"
+
+blueimp-tmpl@3:
+  version "3.19.0"
+  resolved "https://registry.yarnpkg.com/blueimp-tmpl/-/blueimp-tmpl-3.19.0.tgz#1160f79c4ce55bd82d25cfa3df7db116f8d1df62"
+  integrity sha512-v8/Vge6U3uwlAjO9TxeHoYl77C1GJDZBN45pUp+39WyHU/VRzYbnGDhRNYvcT6Lh8jihVsXNZttnDpnYVA4m9w==
 
 blueimp-tmpl@3.6.0:
   version "3.6.0"
@@ -482,7 +506,14 @@ bootstrap-colorpicker@^2.5.3:
   dependencies:
     jquery ">=1.10"
 
-bootstrap-datepicker@^1.6.0, bootstrap-datepicker@~1.8.0:
+bootstrap-datepicker@^1.6.0, bootstrap-datepicker@~1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.9.0.tgz#e4bfce3fcce1967876b21dc6833ec5994aaed090"
+  integrity sha512-9rYYbaVOheGYxjOr/+bJCmRPihfy+LkLSg4fIFMT9Od8WwWB/MB50w0JO1eBgKUMbb7PFHQD5uAfI3ArAxZRXA==
+  dependencies:
+    jquery ">=1.7.1 <4.0.0"
+
+bootstrap-datepicker@~1.8.0:
   version "1.8.0"
   resolved "https://registry.yarnpkg.com/bootstrap-datepicker/-/bootstrap-datepicker-1.8.0.tgz#c63513931e6f09f16ae9f11b62f32d950df3958e"
   dependencies:
@@ -497,6 +528,11 @@ bootstrap-tokenfield@^0.12.0, bootstrap-tokenfield@~0.12.0:
 bootstrap@4.1.0:
   version "4.1.0"
   resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.0.tgz#110b05c31a236d56dbc9adcda6dd16f53738a28a"
+
+bootstrap@4.5.3:
+  version "4.5.3"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.5.3.tgz#c6a72b355aaf323920be800246a6e4ef30997fe6"
+  integrity sha512-o9ppKQioXGqhw8Z7mah6KdTYpNQY//tipnkxppWhPbiSWdD+1raYsnhwEZjkTHYbGee4cVQ0Rx65EhOY/HNLcQ==
 
 bootstrap@~3.4.0:
   version "3.4.0"
@@ -3167,10 +3203,10 @@ lcid@^2.0.0:
   dependencies:
     invert-kv "^2.0.0"
 
-leaflet-blurred-location@^1.2.5, leaflet-blurred-location@^1.3.0:
-  version "1.3.0"
-  resolved "https://registry.yarnpkg.com/leaflet-blurred-location/-/leaflet-blurred-location-1.3.0.tgz#513035da5a9c072cbdf314a56d41a9715dfd5376"
-  integrity sha512-w9Q3PUwZH/0kdPn7WPVrgMejH9U0s/RzM1XIR59rDChB3GOoZIZFQd2ThEOUpEko59YaZW5x2CZjkV0usppPCQ==
+leaflet-blurred-location@^1.2.5, leaflet-blurred-location@^1.3.0, leaflet-blurred-location@^1.5.1:
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/leaflet-blurred-location/-/leaflet-blurred-location-1.7.0.tgz#bc308a9681e9f43446b9e20be58a6285a952a8f2"
+  integrity sha512-+xtoTFhA3u5+WRspl2cAPkX5MYCXQO+5nN3PBF783XqaV24QmYLD2NsAwYkU6cJe90ZFBo3q809c0AgBgJw9NQ==
   dependencies:
     haversine-distance "^1.1.4"
     jquery "^3.2.1"
@@ -3236,9 +3272,10 @@ leaflet.blurred-location-display@^1.1.0:
     jquery "^3.3.1"
     leaflet-blurred-location "git://github.com/publiclab/leaflet-blurred-location#main"
 
-leaflet@*, leaflet@^1.3.1, leaflet@^1.3.3:
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.4.0.tgz#d5f56eeb2aa32787c24011e8be4c77e362ae171b"
+leaflet@*, leaflet@^1.3.1, leaflet@^1.3.3, leaflet@^1.6.0:
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/leaflet/-/leaflet-1.7.1.tgz#10d684916edfe1bf41d688a3b97127c0322a2a19"
+  integrity sha512-/xwPEBidtg69Q3HlqPdU3DnrXQOvQU/CCHA1tcDQVzOwm91YMYaILjNp7L4Eaw5Z4sOYdbBz6koWyibppd8Zqw==
 
 leaflet@^0.7.3:
   version "0.7.7"
@@ -3592,7 +3629,12 @@ mocha@^6.1.4:
     yargs-parser "13.0.0"
     yargs-unparser "1.5.0"
 
-moment@^2.10.2, moment@~2.24.0, "moment@~> 2.24.0":
+moment@^2.10.2, moment@~2.29.1:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
+moment@~2.24.0, "moment@~> 2.24.0":
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
 
@@ -4118,9 +4160,10 @@ pngjs@^3.3.3:
   version "3.3.3"
   resolved "https://registry.yarnpkg.com/pngjs/-/pngjs-3.3.3.tgz#85173703bde3edac8998757b96e5821d0966a21b"
 
-popper.js@^1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.15.0.tgz#5560b99bbad7647e9faa475c6b8056621f5a4ff2"
+popper.js@1.16.1, popper.js@^1.15.0:
+  version "1.16.1"
+  resolved "https://registry.yarnpkg.com/popper.js/-/popper.js-1.16.1.tgz#2a223cb3dc7b6213d740e40372be40de43e65b1b"
+  integrity sha512-Wb4p1J4zyFTbM+u6WuO4XstYx4Ky9Cewe4DWrel7B0w6VVICvPwdOpotjzcf6eD8TsckVnIMNONQyPIUFOUbCQ==
 
 portfinder@^1.0.13:
   version "1.0.22"
@@ -4222,28 +4265,29 @@ publiclab-editor@^2.0.0:
     woofmark "git://github.com/jywarren/woofmark.git#xhrOptionsAltBureaucracy"
     xhr "~2.5.0"
 
-publiclab-editor@~2.0.0:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/publiclab-editor/-/publiclab-editor-2.0.2.tgz#d0017f1337232d776e64e6acda1156a470cf9ce2"
+publiclab-editor@~3.0.1:
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/publiclab-editor/-/publiclab-editor-3.0.1.tgz#bafc4bf2da2d13f0d9d5bb90c55426c112086e6f"
+  integrity sha512-VIbyA8dURd8GuAJKAspL5FMXqWvQh9ACQ/dqmw3Cj3mfhyBob0MF3RtGO5si1BjqeVVk1+byUXusuXn6M75tCw==
   dependencies:
     at.js "^1.5.4"
-    backbone "~1.3.3"
-    blueimp-file-upload "^9.28.0"
-    bootstrap "~3.4.0"
-    bootstrap-datepicker "~1.8.0"
+    blueimp-file-upload "^10.30.1"
+    bootstrap "4.5.3"
+    bootstrap-datepicker "~1.9.0"
     bootstrap-tokenfield "~0.12.0"
     crossvent "1.5.5"
     domador "2.4.4"
     font-awesome "~4.7.0"
     grow-textarea "git://github.com/jywarren/grow.git#d54141c9456343f14cc6c935faa0915af09eb669"
     jquery "~3"
-    leaflet "^1.3.3"
-    leaflet-blurred-location "^1.2.5"
+    leaflet "^1.6.0"
+    leaflet-blurred-location "^1.5.1"
     megamark "3.3.0"
-    moment "~2.24.0"
+    moment "~2.29.1"
+    popper.js "1.16.1"
     resig-class "~1.0.0"
     typeahead.js-browserify "~1.0.7"
-    woofmark "git://github.com/jywarren/woofmark.git#xhrOptionsAltBureaucracy"
+    woofmark "git://github.com/jywarren/woofmark.git#plots2"
     xhr "~2.5.0"
 
 pump@^1.0.0:
@@ -5524,6 +5568,18 @@ window-or-global@^1.0.1:
 window-size@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/window-size/-/window-size-0.1.0.tgz#5438cd2ea93b202efa3a19fe8887aee7c94f9c9d"
+
+"woofmark@git://github.com/jywarren/woofmark.git#plots2":
+  version "4.0.3"
+  uid "85e786d53fa7f60465f4ef0179225b2850047de5"
+  resolved "git://github.com/jywarren/woofmark.git#85e786d53fa7f60465f4ef0179225b2850047de5"
+  dependencies:
+    bullseye "1.4.6"
+    bureaucracy "1.0.7"
+    crossvent "1.5.0"
+    kanye "3.0.2"
+    local-storage "1.4.2"
+    seleccion "2.0.0"
 
 "woofmark@git://github.com/jywarren/woofmark.git#xhrOptionsAltBureaucracy":
   version "4.2.3"
